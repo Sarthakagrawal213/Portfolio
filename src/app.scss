@@ -1,0 +1,17 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body,#root{
+    height: 100%;
+    width: 100%;
+}
+
+#dd{
+    height: 100%;
+    width: 100%;
+    background-image:url("/alex-mesmer-6h6O17NjZ_I-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+}

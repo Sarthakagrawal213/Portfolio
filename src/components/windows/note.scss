@@ -1,0 +1,25 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#note{
+    pre{
+        font-family: "SF Mono", Menlo, Monaco, Consolas, monospace;
+  color: #00ff9c;
+//   background: #0d0d0d;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  white-space: pre;
+    }
+    overflow-y: auto;
+  overflow-x: auto;
+    height: 460px;
+    width: 100%;
+}

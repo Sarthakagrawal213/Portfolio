@@ -1,0 +1,30 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+#pdf { 
+    pre {
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+  background: #ffffff;
+  color: #111;
+  font-size: 18px;
+  line-height: 1.7;
+  padding: 40px;
+//   border-radius: 12px;
+  white-space: pre;
+//   padding-right: 20px;
+//   border-radius: 12px;
+  
+  }
+  height: 460px;
+    width: 100%;
+    // background-color: aquamarine;
+    overflow: auto;
+    overflow-x: hidden;
+}
