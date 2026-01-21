@@ -23,14 +23,14 @@ const Nav = () => {
   return (
     <div id='nav'>
       <div id="left">
-         <img className='apple' src="Apple_logo_white.svg.png" alt="" />
+         <img className='apple' src="/Apple_logo_white.svg.png" alt="" />
            <p >Sarthak Agrawal</p>
           <p>File</p>
           <p>Window</p>
           <p>Terminal</p> 
       </div>
       <div id="right">
-        <img className='wifi' src="wireless-xxl.png" alt="" />
+        <img className='wifi' src="/wireless-xxl.png" alt="" />
         <div className="clock" aria-live="polite">{formatNow(now)}</div>
       </div>
     </div>
